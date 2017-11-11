@@ -1,0 +1,214 @@
+﻿/* =========== Inherited Styles =========== */
+
+html, body {
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background: white;
+}
+
+.navbar-inverse {
+    background: white;
+}
+
+.slogan {
+    font-family: cursive;
+}
+
+.description {
+    color: azure;
+    text-align: center;
+}
+
+    .description span {
+        color: black;
+        text-align: center;
+        background: darkgray;
+        font-size: 2.0rem;
+    }
+
+.gameLetters span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/* =========== Game Pieces =========== */
+
+
+.gameLetters h3 {
+    border: 1px dotted lightblue;
+    color: transparent;
+    padding: 4px 4px;
+    display: inline-block;
+}
+
+.hangContain {
+    border: 1px dashed hotpink;
+    width: 65%;
+    height: 375px;
+    background: darkgray;
+}
+
+.postUp {
+    background-color: sienna;
+    display: inline-block;
+    height: 350px;
+    position: relative;
+    width: 10px;
+}
+
+.postRight {
+    background-color: sienna;
+    bottom: 340px;
+    display: inline-block;
+    height: 10px;
+    left: -3px;
+    position: relative;
+    width: 120px;
+}
+
+.rope {
+    background-color: saddlebrown;
+    bottom: 310px;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    right: 17px;
+    width: 10px;
+}
+
+.head {
+    background-color: white;
+    bottom: 270px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    right: 46px;
+    width: 40px;
+    z-index: 10;
+}
+
+.body {
+    background-color: white;
+    bottom: 197px;
+    display: inline-block;
+    height: 75px;
+    position: relative;
+    right: 75px;
+    width: 12px;
+}
+
+.leftArm {
+    background-color: white;
+    bottom: 250px;
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    right: 140px;
+    width: 50px;
+}
+
+.rightArm {
+    background-color: white;
+    bottom: 250px;
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    right: 132px;
+    width: 50px;
+}
+
+.leftLeg {
+    background-color: white;
+    bottom: 173px;
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    right: 240px;
+    transform: rotate(120deg);
+    width: 50px;
+    z-index: 2;
+}
+
+.rightLeg {
+    background-color: white;
+    bottom: 187px;
+    height: 10px;
+    position: relative;
+    left: 130px;
+    transform: rotate(62deg);
+    width: 50px;
+}
+
+
+.floor {
+    border: 5px solid black;
+    bottom: 10px;
+    position: relative;
+    width: 70%;
+}
+
+.counter {
+    display: block;
+    font-size: 1.20em;
+    margin: 30px 0px 0px 15px;
+    width: 100%;
+}
+
+#chances {
+    color: lightblue;
+}
+
+#correct {
+    color: green;
+}
+
+#incorrect {
+    color: pink;
+}
+
+.letters {
+    display: inline-block;
+    padding: 17px;
+}
+
+    .letters:hover {
+        color: lightblue;
+    }
+
+
+/* =========== Dynamic Game Classes =========== */
+
+.vanish {
+    display: none;
+}
+
+.charGuessed {
+    background-color: darkred;
+    color: black;
+}
+.charGuessedTrue {
+    background-color: green;
+    color: white;
+}
+
+/* =========== Endgame Classes =========== */
+
+
+.endGame {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+    .endGame h1 {
+        margin: 0;
+        padding-top: 30px;
+    }
+
+    .endGame button {
+        margin-top: 30px;
+    }
