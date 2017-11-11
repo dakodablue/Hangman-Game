@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Hangman
 
-You can use the [editor on GitHub](https://github.com/dakodablue/Hangman-Game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Version 1](https://dakodablue.github.io/Hangman-Game/index1.html)
+This version and the 2nd are the most complex.  All are compiled from other peoples code and I did my best to try add comments above each live to explain what they do.  This one has a scss preprocessor included which may or may not work on Github.  On click, no keyboard.  Also has categories with corresponding arrays and hints for each 'safe word'.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Version 2](https://dakodablue.github.io/Hangman-Game/index2.html)
+Event Key utilized along with some nice jquery fades, etc.  Better visualization of tallies/scorekeeping.  Again restyled and commented.
 
-### Markdown
+[Version 2](https://dakodablue.github.io/Hangman-Game/index3.html)
+Definitely most barren of the 3, but I suppose the most akin to the demonstration video provided via GitLab (minus the 80's flare and tunes if I recall correctly).  Watched pre recorded 'live' youtube video and wrote pages along with streaming host.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dakodablue/Hangman-Game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
