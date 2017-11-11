@@ -1,7 +1,7 @@
 ## Hangman
 
 [Version 1](https://dakodablue.github.io/Hangman-Game/index1.html)
-This version and the 2nd are the most complex.  All are compiled from other peoples code and I did my best to try add comments above each live to explain what they do.  This one has a scss preprocessor included which may or may not work on Github.  On click, no keyboard.  Also has categories with corresponding arrays and hints for each 'safe word'.
+This version and the 2nd are the most complex.  All are compiled from other peoples code and I did my best to try add comments above each line to explain what they do.  This one has a scss preprocessor included which may or may not work on Github.  On click, no keyboard.  Also has categories with corresponding arrays and hints for each 'safe word'.
 
 [Version 2](https://dakodablue.github.io/Hangman-Game/index2.html)
 Event Key utilized along with some nice jquery fades, etc.  Better visualization of tallies/scorekeeping.  Again restyled and commented.
